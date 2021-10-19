@@ -11,7 +11,7 @@
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <title>Fast Field - Admin View Detail User</title>
+    <title>Fast Field -  Owner Order Detail</title>
 </head>
 
 <body>
@@ -150,17 +150,17 @@
                                 Menu
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="index.html"><i
+                                <a class="nav-link" href="index.html"><i
                                         class="fa fa-fw fa-user-circle"></i>Dashboard</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
                                     data-target="#submenu-2" aria-controls="submenu-2"><i
                                         class="fa fa-fw fa-rocket"></i>Management</a>
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="list-group-fields.html">List Group
+                                            <a class="nav-link active" href="list-group-fields.html">List Group
                                                 Field</a>
                                         </li>
                                         <li class="nav-item">
@@ -190,12 +190,13 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title">Details of User </h2>
+                                <h2 class="pageheader-title">Owner Order Detail Page</h2>
+                                <p class="pageheader-text">Nulla euismod urna eros, sit amet scelerisque torton lectus vel mauris facilisis faucibus at enim quis massa lobortis rutrum.</p>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Edit</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">User Details</li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Owner Order Detail</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -205,87 +206,118 @@
                     <!-- ============================================================== -->
                     <!-- end pageheader  -->
                     <!-- ============================================================== -->
+
                     <div class="row">
-                        <div class="offset-xl-2 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="col">
                             <div class="row">
-                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0 m-b-30">
-                                    <div class="product-slider">
-                                        <div id="productslider-1" class="product-carousel carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                            </ol>
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block" src="assets/images/update_user1.jpg" alt="First slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block" src="assets/images/update_user2.jpg" alt="Second slide">
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                             <span class="sr-only">Previous</span>
-                                                  </a>
-                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                 <span class="sr-only">Next</span>
-                                                     </a>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0 m-b-30">
+                                    <div class="card mr-2">
+                                        <div class="card-header">
+                                            <h4 class="d-flex justify-content-between align-items-center mb-0">
+                                                        <span class="text-muted">List field</span>
+                                          <span class="badge badge-secondary badge-pill">3</span>
+                                                 </h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group mb-3">
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <div>
+                                                        <h6 class="my-0">Field 2</h6>
+                                                        <small class="text-muted">Start time: 19/10/2021 07:00:00</small><br>
+                                                        <small class="text-muted">End time: 19/10/2021 08:00:00</small><br>
+                                                        <small class="text-muted">Price: <span style="color: tomato; font-size: 16px;">$5</span></small>
+                                                    </div>
+                                                    <img class="text-muted rounded-circle" src="assets/images/field-01.jpg" width="60px" height="60px"></img>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <div>
+                                                        <h6 class="my-0">Field 2</h6>
+                                                        <small class="text-muted">Start time: 19/10/2021 08:00:00</small><br>
+                                                        <small class="text-muted">End time: 19/10/2021 09:00:00</small><br>
+                                                        <small class="text-muted">Price: <span style="color: tomato; font-size: 16px;">$5</span></small>
+                                                    </div>
+                                                    <img class="text-muted rounded-circle" src="assets/images/field-01.jpg" width="60px" height="60px"></img>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <div>
+                                                        <h6 class="my-0">Field 3</h6>
+                                                        <small class="text-muted">Start time: 19/10/2021 17:00:00</small><br>
+                                                        <small class="text-muted">End time: 19/10/2021 18:00:00</small><br>
+                                                        <small class="text-muted">Price: <span style="color: tomato; font-size: 16px;">$7</span></small>
+                                                    </div>
+                                                    <img class="text-muted rounded-circle" src="assets/images/field-03.jpg" width="60px" height="60px"></img>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between">
+                                                    <span>Total (USD)</span>
+                                                    <strong><span style="font-size: 20px; color: tomato;">$17</span></strong>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
+                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
                                     <div class="product-details">
                                         <div class="border-bottom pb-3 mb-3">
-                                            <h2 class="mb-3">Nguyen Ngoc Tan</h2>
-                                            <h3 class="mb-3">ID: id000001</h3>
-                                            <div class="product-rating d-inline-block float-right">
-                                                <i class="fa fa-fw fa-star"></i>
-                                                <i class="fa fa-fw fa-star"></i>
-                                                <i class="fa fa-fw fa-star"></i>
-                                                <i class="fa fa-fw fa-star"></i>
+                                            <div class="row">
+                                                <h3 class="col-md-9">ID Order: 1046001</h3>
+                                                <div class="col-md-3 text-right">
+                                                    <span class="badge-dot badge-brand mr-1"></span>On going
+                                                </div>
+                                            </div>
+                                            <h3 class="mb-3">User Booked: Nguyen Dac Huy</h3>
+                                            <h5 class="mb-3">Phone: 0984651247</h5>
+                                        </div>      
+                        <!-- ============================================================== -->
+                        <!-- basic form -->
+                        <!-- ============================================================== -->
+                        <div class="col">
+                            <div class="card">
+                                <h5 class="card-header">Order Info</h5>
+                                <div class="card-body">
+                                    <form action="#" id="basicform" data-parsley-validate="">
+                                        <div class="form-group">
+                                            <label for="field">Address</label><br>
+                                            <input id="field" readonly type="text" name="field" data-parsley-trigger="change" required="" placeholder="Enter address" value="Dist 9, Ho Chi Minh city" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="date">Booking Date</label>
+                                            <input id="date" readonly type="text" name="email" data-parsley-trigger="change" required="" placeholder="Enter address" value="18/10/2021 09:26:53" autocomplete="off" class="form-control">
+                                        </div>    
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Note</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">Đúng giờ là bóng lăn nha, không chờ đợi.</textarea>
+                                        </div>   
+                                        <div class="row">
+                                            <div class="col-sm-6 pr-0">
+                                                <p class="text-left">
+                                                    <button type="submit" class="btn btn-space btn-primary">Done</button>
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-6 pl-0">
+                                                <p class="text-right">
+                                                    <button type="submit" class="btn btn-space btn-danger">Cancel</button>
+                                                </p>
                                             </div>
                                         </div>
-                                        <div class="product-colors border-bottom">
-                                            <h4>Status</h4>
-                                            <label for="status">Active</label>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4>Address</h4>
-                                            <label for="addess">Dist 9, Ho Chi Minh city</label>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Day of birth</h4>
-                                            <label for="dob">1998-06-15</label>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Role</h4>
-                                            <label for="role">Owner</label>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Email</h4>
-                                            <label for="email">tannn@gmail.com</label>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Phone</h4>
-                                            <label for="phone">0936254816</label>
-                                        </div>
-                                        <div class="col-sm-6 pl-0">
-                                            <p class="text-right">
-                                                <td><a href="updateUser.html"><button type="button" class="btn btn-primary"><i class="fas fa-edit"></i> Edit</button></a></td>
-                                            </p>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic form -->
+                        <!-- ============================================================== -->
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                        </div>
                     </div>
-                
                 </div>
                 <!-- ============================================================== -->
                 <!-- footer -->
                 <!-- ============================================================== -->
-
                 <div class="footer">
                     <div class="container-fluid">
                         <div class="row">
