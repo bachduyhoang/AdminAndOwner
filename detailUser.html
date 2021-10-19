@@ -11,7 +11,7 @@
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <title>Fast Field -  Admin Group Field Detail</title>
+    <title>Fast Field - Admin View Detail User</title>
 </head>
 
 <body>
@@ -153,21 +153,21 @@
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
+                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">Management</a>
                                             <div id="submenu-1-2" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="index.html">E Commerce Dashboard</a>
+                                                        <a class="nav-link" href="index.html">Group Field Management</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-product.html">Product List</a>
+                                                        <a class="nav-link" href="list-group-fields.html">List Group Field</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-product-single.html">Product Single</a>
+                                                        <a class="nav-link" href="userManagement.html">User Management</a>
                                                     </li>
-                                                    <li class="nav-item">
+                                                    <!-- <li class="nav-item">
                                                         <a class="nav-link" href="ecommerce-product-checkout.html">Product Checkout</a>
-                                                    </li>
+                                                    </li>  -->
                                                 </ul>
                                             </div>
                                         </li>
@@ -440,13 +440,12 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title">Group Field Page</h2>
-                                <p class="pageheader-text">Nulla euismod urna eros, sit amet scelerisque torton lectus vel mauris facilisis faucibus at enim quis massa lobortis rutrum.</p>
+                                <h2 class="pageheader-title">Details of User </h2>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">E-coommerce</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Group Field Page</li>
+                                            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Edit</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">User Details</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -457,145 +456,117 @@
                     <!-- end pageheader  -->
                     <!-- ============================================================== -->
                     <div class="row">
-                        <div class="col">
+                        <div class="offset-xl-2 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0  m-b-30">
+                                <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0  m-b-30">
                                     <div class="product-slider">
                                         <div id="productslider-1" class="product-carousel carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            </ol>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block" src="assets/images/field-01.jpg" alt="First slide">
+                                                    <img class="d-block" src="assets/images/update_user1.jpg" alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block" src="assets/images/update_user2.jpg" alt="Second slide">
                                                 </div>
                                             </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                             <span class="sr-only">Previous</span>
+                                                  </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                 <span class="sr-only">Next</span>
+                                                     </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
                                     <div class="product-details">
                                         <div class="border-bottom pb-3 mb-3">
-                                            <h2 class="mb-3">Tien Xuan Field</h2>
-                                            <h3 class="mb-3">ID: 1006581</h3>
-                                            <h3 class="mb-3">Owner: Tien Xuan</h3>
-                                        </div>
-                                        
-                                        <!-- ============================================================== -->
-                        <!-- basic form -->
-                        <!-- ============================================================== -->
-                        <div class="col">
-                            <div class="card">
-                                <h5 class="card-header">Field Info</h5>
-                                <div class="card-body">
-                                    <form action="#" id="basicform" data-parsley-validate="">
-                                        <div class="form-group">
-                                            <label for="inputUserName">Field Name</label>
-                                            <input id="inputUserName" type="text" name="name" data-parsley-trigger="change" required="" placeholder="Enter Field name" value="Tien Xuan Field" autocomplete="off" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="inputEmail">Address</label>
-                                            <input id="inputEmail" type="email" name="email" data-parsley-trigger="change" required="" placeholder="Enter address" value="Quan 1 HCM" autocomplete="off" class="form-control">
-                                        </div>    
-                                        <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Description</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">That is not football field, that is childhood</textarea>
-                                        </div>   
-                                        <div class="row">
-                                            <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
-                                                <label class="be-checkbox custom-control custom-checkbox"  >
-                                                    <input type="checkbox" checked class="custom-control-input"><span class="custom-control-label">Status</span>
-                                                </label>
-                                            </div>
-                                            <div class="col-sm-6 pl-0">
-                                                <p class="text-right">
-                                                    <button type="submit" class="btn btn-space btn-primary">Submit</button>
-                                                </p>
+                                            <h2 class="mb-3">Nguyen Ngoc Tan</h2>
+                                            <h3 class="mb-3">ID: id000001</h3>
+                                            <div class="product-rating d-inline-block float-right">
+                                                <i class="fa fa-fw fa-star"></i>
+                                                <i class="fa fa-fw fa-star"></i>
+                                                <i class="fa fa-fw fa-star"></i>
+                                                <i class="fa fa-fw fa-star"></i>
                                             </div>
                                         </div>
-                                    </form>
+                                        <div class="product-colors border-bottom">
+                                            <h4>Status</h4>
+                                            <label for="status">Active</label>
+                                        </div>
+                                        <div class="product-size border-bottom">
+                                            <h4>Address</h4>
+                                            <label for="addess">Dist 9, Ho Chi Minh city</label>
+                                        </div>
+                                        <div class="product-size border-bottom">
+                                            <h4 class="mb-1">Day of birth</h4>
+                                            <label for="dob">1998-06-15</label>
+                                        </div>
+                                        <div class="product-size border-bottom">
+                                            <h4 class="mb-1">Role</h4>
+                                            <label for="role">Owner</label>
+                                        </div>
+                                        <div class="product-size border-bottom">
+                                            <h4 class="mb-1">Email</h4>
+                                            <label for="email">tannn@gmail.com</label>
+                                        </div>
+                                        <div class="product-size border-bottom">
+                                            <h4 class="mb-1">Phone</h4>
+                                            <label for="phone">0936254816</label>
+                                        </div>
+                                        <div class="col-sm-6 pl-0">
+                                            <p class="text-right">
+                                                <td><a href="updateUser.html"><button type="button" class="btn btn-primary"><i class="fas fa-edit"></i> Edit</button></a></td>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- ============================================================== -->
-                        <!-- end basic form -->
-                        <!-- ============================================================== -->
-                                        
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-b-60">
+                        <div class="simple-card">
+                            <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="product-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="product-tab-1" aria-selected="true">Reviews</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent5">
+                                <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="product-tab-1">
+                                    <div class="review-block">
+                                        <p class="review-text font-italic m-0">“This owner so friendly and really nice. I will be back soon.”</p>
+                                        <div class="rating-star mb-4">
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                        </div>
+                                        <span class="text-dark font-weight-bold">Virgina</span><small class="text-mute"> (User)</small>
                                     </div>
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-b-10">
-                                    <h3> Fields</h3>
-                                </div>
-                                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <div class="product-thumbnail">
-                                        <div class="product-img-head">
-                                            <div class="product-img">
-                                                <img src="assets/images/field-01.jpg" alt="" class="img-fluid "></div>
-                                            <div class="ribbons">New</div>
-                                            
+                                    <div class="review-block border-top mt-3 pt-3">
+                                        <p class="review-text font-italic m-0">“Chủ rất hiền và thân thiện, sẵn sàng ủng hộ những lần tới.”</p>
+                                        <div class="rating-star mb-4">
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
+                                            <i class="fa fa-fw fa-star"></i>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-content-head">
-                                                <h3 class="product-title">Field A</h3>
-                                                <div class="product-rating d-inline-block">
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <div class="product-btn">
-                                                <a href="#" class="btn btn-primary">Detail</a>
-                                            </div>
-                                        </div>
+                                        <span class="text-dark font-weight-bold">Hoang Trong Vu</span><small class="text-mute"> (User)</small>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <div class="product-thumbnail">
-                                        <div class="product-img-head">
-                                            <div class="product-img">
-                                                <img src="assets/images/field-05.jpg" alt="" class="img-fluid"></div>
+                                    <div class="review-block  border-top mt-3 pt-3">
+                                        <p class="review-text font-italic m-0">“Nói chuyện cộc lộc với khách hàng, hay khó chịu.”</p>
+                                        <div class="rating-star mb-4">
+                                            <i class="fa fa-fw fa-star"></i>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-content-head">
-                                                <h3 class="product-title">Field B</h3>
-                                                <div class="product-rating d-inline-block">
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <div class="product-btn">
-                                                <a href="#" class="btn btn-primary">Detail</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-                                    <div class="product-thumbnail">
-                                        <div class="product-img-head">
-                                            <div class="product-img" >
-                                                <img src="assets/images/field-04.jpg" alt="" class="img-fluid" ></div>
-                                        </div>
-                                        <div class="product-content">
-                                            <div class="product-content-head">
-                                                <h3 class="product-title">Field C</h3>
-                                                <div class="product-rating d-inline-block">
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                    <i class="fa fa-fw fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <div class="product-btn">
-                                                <a href="#" class="btn btn-primary">Detail</a>
-                                                
-                                            </div>
-                                        </div>
+                                        <span class="text-dark font-weight-bold">Vu Dinh Trong </span><small class="text-mute"> (User)</small>
                                     </div>
                                 </div>
                             </div>
@@ -605,6 +576,7 @@
                 <!-- ============================================================== -->
                 <!-- footer -->
                 <!-- ============================================================== -->
+
                 <div class="footer">
                     <div class="container-fluid">
                         <div class="row">
