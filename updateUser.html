@@ -247,51 +247,65 @@
                                                 <i class="fa fa-fw fa-star"></i>
                                             </div>
                                         </div>
-                                        <div class="product-colors border-bottom">
-                                            <h4>Status</h4>
-                                            <select>
-                                                <option>Active</option>
-                                                <option>Deactive</option>
-                                            </select>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4>Address</h4>
-                                            <div>
-                                                <input type="text" name="address" value="Dist 9, Ho Chi Minh city"><br>
+                                        <div class="col">
+                                            <div class="card">
+                                                <h5 class="card-header">User Info</h5>
+                                                <div class="card-body">
+                                                    <form action="#" id="basicform" data-parsley-validate="">
+                                                        <div class="form-group">
+                                                            <label for="name">Name</label>
+                                                            <input id="name" type="text" name="name" data-parsley-trigger="change" required="" value="Nguyen Ngoc Tan" autocomplete="off" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="email">Email</label>
+                                                            <input id="email" type="email" name="email" data-parsley-trigger="change" required="" value="tannn@gmail.com" autocomplete="off" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="dob">Day of birth</label>
+                                                            <input id="dob" type="date" name="dob" data-parsley-trigger="change" required="" autocomplete="off" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="role">Role</label>
+                                                            <select id="role" name="role" data-parsley-trigger="change" required="" autocomplete="off" class="form-control">
+                                                                <option>Owner</option>
+                                                                <option>Customer</option>
+                                                                <option>Other</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="phone">Phone</label>
+                                                            <input id="phone" type="text" name="phone" data-parsley-trigger="change" required="" value="0999684752"  autocomplete="off" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="address">Address</label>
+                                                            <input id="address" type="text" name="address" data-parsley-trigger="change" required="" value="Dist 9, Ho Chi Minh city" autocomplete="off" class="form-control">
+                                                        </div>    
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">Description</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">Tôi có sân đá bóng và tôi muốn lan tỏa đến mọi người.</textarea>
+                                                        </div>   
+                                                        <!-- <div class="form-group">
+                                                            <label for="status">Status</label>
+                                                            <select id="status" name="status" data-parsley-trigger="change" required="" autocomplete="off" class="form-control">
+                                                                <option>Active</option>
+                                                                <option>Deactive</option>
+                                                            </select>
+                                                        </div> -->
+                                                        <div class="row">
+                                                            <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
+                                                                <label class="be-checkbox custom-control custom-checkbox"  >
+                                                                    <input type="checkbox" checked class="custom-control-input"><span class="custom-control-label">Status</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-sm-6 pl-0">
+                                                                <p class="text-right">
+                                                                    <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Day of birth</h4>
-                                            <div>
-                                                <input type="date" name="dob" value="15/06/1998"><br>
-                                            </div>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Role</h4>
-                                            <div>
-                                                <select>
-                                                    <option>Owner</option>
-                                                    <option>Customer</option>
-                                                    <option>Other</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Email</h4>
-                                            <div>
-                                                <input type="text" name="email" value="tannn@gmail.com"><br>
-                                            </div>
-                                        </div>
-                                        <div class="product-size border-bottom">
-                                            <h4 class="mb-1">Phone</h4>
-                                            <div>
-                                                <input type="text" name="email" value="0936254816"><br>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 pl-0">
-                                            <p class="text-right">
-                                                <button type="submit" class="btn btn-space btn-primary">Submit</button>
-                                            </p>
                                         </div>
                                     </div>
                                 </div>
