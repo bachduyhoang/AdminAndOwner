@@ -30,11 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                        <li class="nav-item">
-                            <div id="custom-search" class="top-search-bar">
-                                <input class="form-control" type="text" placeholder="Search..">
-                            </div>
-                        </li>
+                        
                         <li class="nav-item dropdown notification">
                             <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
                             <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
@@ -209,7 +205,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0  m-b-30">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pr-xl-0 pr-lg-0 pr-md-0  m-b-30">
                                     <div class="product-slider">
                                         <div id="productslider-1" class="product-carousel carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
@@ -218,9 +214,14 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlFile1">Choose Image</label>
+                                            <input type="file" accept="image/*" class="form-control-file" id="exampleFormControlFile1">
+                                          </div>
                                     </div>
+                                    
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
+                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 pl-xl-0 pl-lg-0 pl-md-0 border-left m-b-30">
                                     <div class="product-details">
                                         <div class="border-bottom pb-3 mb-3">
                                             <h2 class="mb-3">Tien Xuan Field - Field A</h2>
@@ -248,6 +249,75 @@
                                                 <option>Field 11</option>
                                             </select>
                                         </div>
+                                        <div class="form-group">
+                                            <label>Working hours  <a href="#"><i class="fas fa-plus-circle" style="font-size: 21px; color: blue;"></i></a></label>
+                                        </div>
+                                        <div class="form-group row ">
+                                            
+                                            <label for="input-select" class="col-sm-1 col-form-label mr-4">Start time</label>
+                                            <div class="col-sm-2"> 
+                                                <select class="form-control" id="input-select">
+                                                    <option>00:00</option>
+                                                    <option>01:00</option>
+                                                    <option>02:00</option>
+                                                    <option>03:00</option>
+                                                    <option>04:00</option>
+                                                    <option>05:00</option>
+                                                    <option>06:00</option>
+                                                    <option>07:00</option>
+                                                    <option>08:00</option>
+                                                    <option>09:00</option>
+                                                    <option>10:00</option>
+                                                    <option>11:00</option>
+                                                    <option>12:00</option>
+                                                    <option>13:00</option>
+                                                    <option>14:00</option>
+                                                    <option>15:00</option>
+                                                    <option>16:00</option>
+                                                    <option>17:00</option>
+                                                    <option>18:00</option>
+                                                    <option>19:00</option>
+                                                    <option>20:00</option>
+                                                    <option>21:00</option>
+                                                    <option>22:00</option>
+                                                    <option>23:00</option>
+                                                    
+                                                </select>
+                                            </div>  
+
+                                            <label for="input-select" class="col-sm-1 col-form-label mr-3">End time</label>
+                                            <div class="col-sm-2"> 
+                                                <select class="form-control" id="input-select">
+                                                    <option>00:00</option>
+                                                    <option>01:00</option>
+                                                    <option>02:00</option>
+                                                    <option>03:00</option>
+                                                    <option selected>04:00</option>
+                                                    <option>05:00</option>
+                                                    <option>06:00</option>
+                                                    <option>07:00</option>
+                                                    <option>08:00</option>
+                                                    <option>09:00</option>
+                                                    <option>10:00</option>
+                                                    <option>11:00</option>
+                                                    <option>12:00</option>
+                                                    <option>13:00</option>
+                                                    <option>14:00</option>
+                                                    <option>15:00</option>
+                                                    <option>16:00</option>
+                                                    <option>17:00</option>
+                                                    <option>18:00</option>
+                                                    <option>19:00</option>
+                                                    <option>20:00</option>
+                                                    <option>21:00</option>
+                                                    <option>22:00</option>
+                                                    <option>23:00</option>
+                                                </select>
+                                            </div>
+                                            <label for="input-select" class="col-sm-1 col-form-label mr-2">Price</label>
+                                            <input type="number" value="8" class=" form-control col-sm-2" name="name" data-parsley-trigger="change" required="" placeholder="Price"  autocomplete="off" class="form-control">
+                                            <i class="fas fa-times-circle col-sm-2 my-auto" style="color: red; font-size: 20px;"></i>
+                                          </div>
                                         <div class="form-group">
                                             <label for="exampleFormControlTextarea1">Description</label>
                                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10">That is not football field, that is childhood</textarea>
